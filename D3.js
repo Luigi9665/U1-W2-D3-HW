@@ -184,7 +184,7 @@ let crewMass = 0;
 let indiceEx6 = starWarsCharacters.length - 1;
 
 while (indiceEx6 >= 0) {
-  crewMass += parseFloat(starWarsCharacters[indiceEx6].mass);
+  crewMass += parseInt(starWarsCharacters[indiceEx6].mass);
   console.log("mass", parseFloat(starWarsCharacters[indiceEx6].mass));
   indiceEx6--;
 }
