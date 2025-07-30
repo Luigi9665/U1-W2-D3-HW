@@ -126,12 +126,12 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 */
 console.log("_________________________ Esercizio 3");
 const femaleCharacters = [];
-let x = 0;
+let indiceEx3 = 0;
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "female") {
     // femaleCharacters.push(starWarsCharacters[i]);
-    femaleCharacters[x] = structuredClone(starWarsCharacters[i]);
-    x++;
+    femaleCharacters[indiceEx3] = structuredClone(starWarsCharacters[i]);
+    indiceEx3++;
   }
 }
 
